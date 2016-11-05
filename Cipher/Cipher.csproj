@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CipherAtBash.cs" />
+    <Compile Include="CipherBacon.cs" />
     <Compile Include="CipherCezar.cs" />
     <Compile Include="Credits.cs" />
     <Compile Include="CipherAlgorithm.cs" />

@@ -29,7 +29,7 @@ namespace Cipher
             {
                 identifier = displayAlgorithmMenu();
                 direction = displayDirectionMenu(identifier);
-            } while (direction == "back");
+            } while (direction == id_back);
 
             Console.Clear();
             Console.WriteLine("Wpisz tekst (potwierdź enterem)\n");
@@ -60,7 +60,7 @@ namespace Cipher
             {
                 return new CipherAtBash();
             }
-            return new CipherCezar();
+            return new CipherBacon();
         }
 
         string displayAlgorithmMenu()
