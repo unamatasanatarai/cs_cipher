@@ -60,6 +60,10 @@ namespace Cipher
             {
                 return new CipherAtBash();
             }
+            if (identifier == id_morse)
+            {
+                return new CipherMorse();
+            }
             return new CipherBacon();
         }
 
