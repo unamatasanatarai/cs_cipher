@@ -43,7 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CipherAtBash.cs" />
+    <Compile Include="CipherCezar.cs" />
     <Compile Include="Credits.cs" />
+    <Compile Include="CipherAlgorithm.cs" />
+    <Compile Include="LetterUtils.cs" />
+    <Compile Include="Menu.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
