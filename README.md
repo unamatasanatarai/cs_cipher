@@ -43,7 +43,8 @@ Wybierz algorytm szyfrowania
 ##Przyk³ady
 W katalogu Cipher\Examples mo¿na uruchomiæ plik `run.bat` który uruchamia Cipher.exe dla przyk³adowego pliku tekstowego dla wszystkich mo¿liwych sposobów szyfrowania i odszyfrowania.
 
-```Cipher.exe original.txt bacon.encrypted bacon to
+```
+Cipher.exe original.txt bacon.encrypted bacon to
 Cipher.exe original.txt cezar.encrypted cezar to
 Cipher.exe original.txt atbash.encrypted atbash to
 Cipher.exe original.txt morse.encrypted morse to
@@ -51,4 +52,5 @@ Cipher.exe original.txt morse.encrypted morse to
 Cipher.exe bacon.encrypted bacon.decrypted bacon from
 Cipher.exe cezar.encrypted cezar.decrypted cezar from
 Cipher.exe atbash.encrypted atbash.decrypted atbash from
-Cipher.exe morse.encrypted morse.decrypted morse from```
+Cipher.exe morse.encrypted morse.decrypted morse from
+```
